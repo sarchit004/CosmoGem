@@ -5,8 +5,10 @@
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
-.mainHeader {
-    width: auto;
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
 }
 .logoBar {
     background-color: #0C1023;
@@ -16,14 +18,17 @@
     align-items: center;
     justify-content: center;
 }
+.logoTitle {
+    font-family: "El Messiri", sans-serif;
+    margin: 0;
+    line-height: 1;
+    display: inline-block;
+}
 .logoImage {
     height: 60px;
-    margin-left: 15px;
-}
-.logoTitle {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-family: "El Messiri", sans-serif;
+    margin-left: 5px;
+    display: inline-block;
+    vertical-align: middle;
 }
 .navbar {
     display: flex;
