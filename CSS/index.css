@@ -233,6 +233,22 @@
     height: 95px;
     margin-bottom: 30px;
 }
+.serviceSection1, .serviceSection2, .serviceSection3 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+
+    &:hover {
+        background-color: #ca416fbe;
+        transform: scale(1.03);
+    }
+    &:hover .serviceHeading {
+        color: #fff;
+    }
+    &:hover .tryThisBtn {
+        background-color: #fff;
+        color: #12172D;
+    }
+}
 .serviceImage2 {
     height: 105px;
     margin-bottom: 40px;
@@ -240,8 +256,11 @@
 .serviceHeading {
     font-family: "El Messiri", sans-serif;
     font-size: 40px; 
-    color: #CA416E; 
+    color: #219BF1; 
     line-height: 45px;
+}
+#lifeFortuneTitle {
+    margin-bottom: 82px;
 }
 .servicesBlock {
     margin: 60px 0;
@@ -258,6 +277,7 @@
     font-size: 20px;
     background-color: #CA416E;
     border-radius: 50px;
+    border: none;
 
     &:hover {
         cursor: pointer;
