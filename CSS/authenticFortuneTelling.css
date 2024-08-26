@@ -114,6 +114,53 @@ a {
 .bannerImage {
     height: 150px;
 }
+.aboutUs {
+    background-color: #12172D;
+    vertical-align: middle;
+}
+.subMenu {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.subMenuItems {
+    color: #ffffffb7;
+    margin: 0 25px;
+    font-family: "Poppins", sans-serif;
+
+    &:hover {
+        color: #219BF1;
+    }
+}
+#active-subMenu {
+    color: #219BF1;
+    font-size: larger;
+}
+.lifetimeFortuneDescription {
+    display: inline-block;
+    padding: 0 20%;
+    padding-bottom: 50px;
+}
+.lifetimeFortuneDescription h1 {
+    font-family: "El Messiri", sans-serif;
+    color: #CA416E;
+}
+.lifetimeFortuneDescription p {
+    color: #ffffffba;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+.formSection {
+    display: inline-block;
+    padding: 0 20%;
+    padding-bottom: 50px;
+}
+.formSection h4 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
 footer {
     background-color: #0B0E1E;
     color: #fff;
