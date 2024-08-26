@@ -1,3 +1,4 @@
+/*************************** DEFAULT STYLINGS ************************/
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +11,8 @@ a {
     color: inherit;
     outline: none;
 }
+
+/*************************** Main Header (Nav and Title Bar) ************************/
 .logoBar {
     background-color: #0C1023;
     color: #fff;
@@ -35,16 +38,6 @@ a {
     justify-content: space-between;
     background-color: #12172D;
     padding: 12px 85px;
-}
-.banner {
-    background-image: url(../IMAGES/homepageBackground.png);
-    background-size: cover;
-    background-position: center;
-    background-color: #0C1023;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0;
 }
 .socials {
     display: flex;
@@ -75,6 +68,18 @@ a {
 }
 #active {
     color: #CA416E;
+}
+
+/******************************* Banner ******************************/
+.banner {
+    background-image: url(../IMAGES/homepageBackground.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #0C1023;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
 }
 .introText {
     width: 500px;
@@ -385,7 +390,12 @@ footer {
     margin-right: 15px;
     text-decoration: none;
 }
-
+.footerSocials {
+    display:inline-block;
+}
+.footerSocialIcons {
+    height: 20px;
+}
 .footer-bottom {
     border-top: 1px solid #333;
     color: #999;
