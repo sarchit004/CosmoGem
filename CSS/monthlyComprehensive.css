@@ -1,0 +1,371 @@
+/*************************** DEFAULT STYLINGS ************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+/*************************** Main Header (Nav and Title Bar) ************************/
+.logoBar {
+    background-color: #0C1023;
+    color: #fff;
+    padding: 30px 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoTitle {
+    font-family: "El Messiri", sans-serif;
+    margin: 0;
+    line-height: 1;
+    display: inline-block;
+}
+.logoImage {
+    height: 60px;
+    margin-left: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #12172D;
+    padding: 12px 85px;
+}
+.socials {
+    display: flex;
+    height: auto;
+}
+.socialIcons {
+    height: 25px;
+    margin: 0 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    &:hover{
+        transform: scale(2);
+    }
+}
+.menus {
+    padding: 15px 0px;
+}
+.menuItem {
+    margin: 0 15px;
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: "El Messiri", sans-serif;
+
+    &:hover {
+        color: #CA416E;
+    }
+}
+#active {
+    color: #CA416E;
+}
+
+/************************************* Banner *************************/
+.banner {
+    background-image: url(../IMAGES/homepageBackground.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #0C1023;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.bannerText {
+    width: 500px;
+    color: #fff;
+    font-size: larger;
+    margin-right: 80px;
+}
+.sloganTitle {
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.slogan {
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    color: #ffffffd1;
+}
+.bannerTitle {
+    font-family: "El Messiri", sans-serif;
+    line-height: 75px;
+    font-weight: 60;
+    font-size: 75px;
+    color: #CA416E;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.pathLink {
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+}
+.bannerImage {
+    height: 150px;
+}
+.aboutUs {
+    background-color: #12172D;
+    vertical-align: middle;
+}
+.subMenu {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.subMenuItems {
+    color: #ffffffb7;
+    margin: 0 25px;
+    font-family: "Poppins", sans-serif;
+
+    &:hover {
+        color: #219BF1;
+    }
+}
+#active-subMenu {
+    color: #219BF1;
+    font-size: larger;
+}
+.lifetimeFortuneDescription {
+    display: inline-block;
+    padding: 0 20%;
+    padding-bottom: 50px;
+}
+.lifetimeFortuneDescription h1 {
+    font-family: "El Messiri", sans-serif;
+    color: #CA416E;
+}
+.lifetimeFortuneDescription p {
+    color: #ffffffba;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+/* Form Section Styling */
+.formSection {
+    display: inline-block;
+    padding: 0 20%;
+    padding-bottom: 50px;
+    font-family: "Poppins", sans-serif;
+}
+.formSection h4 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.inp_area {
+    display: flex;
+    flex-direction: column;
+}
+.inp_ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.inp_ul li {
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Labels */
+label {
+    font-size: 14px;
+    color: #fff;
+    margin-right: 10px;
+    flex: 0 0 100px;
+    margin-bottom: 15px;
+}
+
+/* Dropdown Styling */
+.select_01, .select_02 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.select_01:focus, .select_02:focus {
+    outline: none;
+    border-color: #6c5ce7;
+    box-shadow: 0px 0px 8px rgba(108, 92, 231, 0.5);
+}
+
+select option {
+    padding: 10px;
+}
+
+/* Aligning input groups */
+.calendarDropdown, .birthYearDropdown, .birthMonthDropdown, .birthDayDropdown {
+    width: calc(25% - 10px);
+    margin-right: 10px;
+}
+
+.birthDateField ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Button Styling */
+.btn_basic_purple {
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #CA416E;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    display: block;
+    margin: 20px 0;
+}
+
+.btn_basic_purple:hover {
+    transform: scale(1.1);
+}
+
+/* Birth Hour Select Styling */
+.birthHourField {
+    margin-top: 20px;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 768px) {
+    .calendarDropdown, .birthYearDropdown, .birthMonthDropdown, .birthDayDropdown {
+        width: 100%;
+    }
+}
+
+
+
+
+
+footer {
+    background-color: #0B0E1E;
+    color: #fff;
+    text-align: center;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure the footer-bottom stays at the bottom */
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensure it takes full height of the footer */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 300px;
+    padding-top: 100px;
+}
+
+.footer-logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.footer-logo span {
+    font-family: "El Messiri", sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding-top: 60px;
+}
+
+.footer-column {
+    margin: 0 50px;
+}
+
+#contactInfo {
+    margin-right: 0;
+}
+
+.footer-column h3 {
+    color: #219BF1;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 15px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-column p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.footerSocials {
+    display:inline-block;
+}
+.footerSocialIcons {
+    height: 20px;
+}
+.footer-bottom {
+    border-top: 1px solid #333;
+    color: #999;
+    font-size: 14px;
+    padding-top: 10px;
+}
